@@ -1,12 +1,24 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	margin-top: 50px;
+}
 main {
-	max-width: 960px;
+	max-width: 500px;
 	margin: 0 auto;
 	padding: 20px;
+	border: solid grey 2px;
 }
 
 p {
 	max-width: 400px;
+}
+.answer-option{
+	display: block;
+}
+.button-placement{
+	position: relative;
+	bottom:10px;
+	left: 10px;
 }
